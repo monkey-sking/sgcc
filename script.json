@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "localizedDescriptions": {
+    "de": "",
+    "ja": "",
+    "es": "",
+    "ru": "",
+    "it": "",
+    "en": "",
+    "zh": "",
+    "fr": "",
+    "pt": ""
+  },
+  "localizedNames": {
+    "ru": "",
+    "zh": "网上电网",
+    "en": "State Grid",
+    "es": "",
+    "it": "",
+    "pt": "",
+    "fr": "",
+    "ja": "",
+    "de": ""
+  },
+  "description": "",
+  "runInApp": false,
+  "color": "rgba(0, 112, 107, 1)",
+  "author": {
+    "email": null,
+    "homepage": null,
+    "name": "ByteValley"
+  },
+  "icon": "bolt.shield",
+  "remoteResource": null,
+  "name": "网上电网",
+  "intentInputTypes": [],
+  "contributors": []
+}
