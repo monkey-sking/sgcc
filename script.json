@@ -1,0 +1,52 @@
+{
+  "description": "国家电网电费查询小组件",
+  "runInApp": false,
+  "localizedNames": {
+    "ru": "",
+    "fr": "",
+    "de": "",
+    "en": "State Grid",
+    "pt": "",
+    "ja": "",
+    "it": "",
+    "zh": "网上国网",
+    "es": ""
+  },
+  "color": "rgba(0, 112, 107, 1)",
+  "name": "网上国网",
+  "author": {
+    "homepage": "https://github.com/dompling/Script",
+    "name": "小白脸|𝐎𝐍𝐙𝟑𝐕",
+    "email": null
+  },
+  "intentInputTypes": [],
+  "contributors": [
+    {
+      "name": "monkey-sking",
+      "homepage": "https://github.com/monkey-sking/sgcc"
+    }
+  ],
+  "remoteResource": {
+    "url": "https:\/\/github.com\/monkey-sking\/sgcc",
+    "hash": "3c6321ffbd145d150748c770ab54db59",
+    "autoUpdateInterval": 600
+  },
+  "version": "1.1.0",
+  "localizedDescriptions": {
+    "zh": "查询国家电网电费余额和用电量",
+    "pt": "",
+    "ja": "",
+    "ru": "",
+    "it": "",
+    "es": "",
+    "de": "",
+    "fr": "",
+    "en": "Query State Grid electricity bill and usage"
+  },
+  "icon": "bolt.shield",
+  "supportedFamilies": [
+    "small",
+    "medium",
+    "large"
+  ]
+}

@@ -1,0 +1,10 @@
+#!name=网上国网
+#!desc=网上国网电费查询 - 获取Cookie数据
+#!author=小白脸|𝐎𝐍𝐙𝟑𝐕
+#!homepage=https://github.com/monkey-sking/sgcc
+
+[Script]
+http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=网上国网接口重写
+
+[MITM]
+hostname = api.wsgw-rewrite.com
