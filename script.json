@@ -1,38 +1,47 @@
 {
-  "version": "1.0.0",
-  "localizedDescriptions": {
-    "de": "",
-    "ja": "",
-    "es": "",
-    "ru": "",
-    "it": "",
-    "en": "",
-    "zh": "",
-    "fr": "",
-    "pt": ""
-  },
+  "description": "国家电网电费查询小组件",
+  "runInApp": false,
   "localizedNames": {
     "ru": "",
-    "zh": "网上电网",
-    "en": "State Grid",
-    "es": "",
-    "it": "",
-    "pt": "",
     "fr": "",
+    "de": "",
+    "en": "State Grid",
+    "pt": "",
     "ja": "",
-    "de": ""
+    "it": "",
+    "zh": "网上国网",
+    "es": ""
   },
-  "description": "",
-  "runInApp": false,
   "color": "rgba(0, 112, 107, 1)",
+  "name": "网上国网",
   "author": {
-    "email": null,
-    "homepage": null,
-    "name": "ByteValley"
+    "homepage": "https://github.com/dompling/Script",
+    "name": "小白脸|𝐎𝐍𝐙𝟑𝐕",
+    "email": null
   },
-  "icon": "bolt.shield",
-  "remoteResource": null,
-  "name": "网上电网",
   "intentInputTypes": [],
-  "contributors": []
+  "contributors": [
+    {
+      "name": "monkey-sking",
+      "homepage": "https://github.com/monkey-sking/sgcc"
+    }
+  ],
+  "remoteResource": {
+    "url": "https:\/\/github.com\/monkey-sking\/sgcc",
+    "hash": "3c6321ffbd145d150748c770ab54db59",
+    "autoUpdateInterval": 600
+  },
+  "version": "1.1.0",
+  "localizedDescriptions": {
+    "zh": "查询国家电网电费余额和用电量",
+    "pt": "",
+    "ja": "",
+    "ru": "",
+    "it": "",
+    "es": "",
+    "de": "",
+    "fr": "",
+    "en": "Query State Grid electricity bill and usage"
+  },
+  "icon": "bolt.shield"
 }
