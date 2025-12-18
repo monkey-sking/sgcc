@@ -13,6 +13,7 @@ import {
   Toggle
 } from "scripting"
 import { getSettings, saveSettings, DEFAULT_SETTINGS, SGCCSettings } from "./api"
+import { ModuleSection, createModuleActions } from "./moduleSection"
 
 function SettingsView() {
   const dismiss = Navigation.useDismiss()
@@ -71,6 +72,20 @@ function SettingsView() {
           ]
         }}
       >
+        {/* 组件模块安装 */}
+        <ModuleSection
+          footerLines={[
+            "使用前请完成以下步骤：",
+            "1）在 BoxJS 中订阅配置",
+            "2）安装对应平台的重写模块",
+            "3）打开网上国网 App 查看电费触发数据抓取",
+          ]}
+          collapsible
+          collapseStorageKey="sgccModuleSectionCollapsed"
+          defaultCollapsed={true}
+          actions={createModuleActions()}
+        />
+
         <Section header={<Text>基础设置</Text>}>
           <TextField
             title="户号索引"
